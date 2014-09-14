@@ -1,0 +1,62 @@
+# This is a shell archive.  Save it in a file, remove anything before
+# this line, and then unpack it by entering "sh file".  Note, it may
+# create directories; files and directories will be owned by you and
+# have default permissions.
+#
+# This archive contains:
+#
+#	py-tabulate
+#	py-tabulate/distinfo
+#	py-tabulate/pkg-descr
+#	py-tabulate/README.md
+#	py-tabulate/Makefile
+#
+echo c - py-tabulate
+mkdir -p py-tabulate > /dev/null 2>&1
+echo x - py-tabulate/distinfo
+sed 's/^X//' >py-tabulate/distinfo << 'efaccaa5b8e175445e07b087b03aba23'
+XSHA256 (tabulate-0.7.2.tar.gz) = 532ccab8d9e4659a5f016d84814df86cc04763785e9de2739e890d956dc82d8f
+XSIZE (tabulate-0.7.2.tar.gz) = 19792
+efaccaa5b8e175445e07b087b03aba23
+echo x - py-tabulate/pkg-descr
+sed 's/^X//' >py-tabulate/pkg-descr << 'eac3744fee776022c4418170d6c0e3bc'
+XPretty-print tabular data in Python.
+X
+XThe main use cases of the library are:
+X
+Xprinting small tables without hassle: just one function call, formatting is guided by the data itself
+Xauthoring tabular data for lightweight plain-text markup: multiple output formats suitable for further editing or transformation
+Xreadable presentation of mixed textual and numeric data: smart column alignment, configurable number formatting, alignment by a decimal point
+X
+eac3744fee776022c4418170d6c0e3bc
+echo x - py-tabulate/README.md
+sed 's/^X//' >py-tabulate/README.md << '1dfad8c09d5d899a6cf0260fcc96aea1'
+XFreeBSD port for https://pypi.python.org/pypi/tabulate/
+X
+X    make install clean
+X
+1dfad8c09d5d899a6cf0260fcc96aea1
+echo x - py-tabulate/Makefile
+sed 's/^X//' >py-tabulate/Makefile << '075fef7ea1f8959e1e6f24a515306ecb'
+X# $FreeBSD$
+X
+XPORTNAME= tabulate
+XPORTVERSION= 0.7.2
+XCATEGORIES= devel python
+X
+XMASTER_SITES=	CHEESESHOP
+XPKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
+X
+XMAINTAINER=	s.astanin@gmail.com
+XCOMMENT=	Pretty-print tabular data in Python.
+X
+XLICENSE=	MIT
+X
+XUSES=		python
+XUSE_PYTHON=	distutils autoplist
+X
+X.include <bsd.port.mk>
+X
+075fef7ea1f8959e1e6f24a515306ecb
+exit
+
