@@ -23,10 +23,12 @@ XPretty-print tabular data in Python.
 X
 XThe main use cases of the library are:
 X
-Xprinting small tables without hassle: just one function call, formatting is guided by the data itself
-Xauthoring tabular data for lightweight plain-text markup: multiple output formats suitable for further editing or transformation
-Xreadable presentation of mixed textual and numeric data: smart column alignment, configurable number formatting, alignment by a decimal point
-X
+Xprinting small tables without hassle: just one function call,
+Xformatting is guided by the data itself authoring tabular data for
+Xlightweight plain-text markup: multiple output formats
+Xsuitable for further editing or transformation readable presentation of 
+Xmixed textual and numeric data: smart column alignment,
+Xconfigurable number formatting, alignment by a decimal point
 eac3744fee776022c4418170d6c0e3bc
 echo x - py-tabulate/Makefile
 sed 's/^X//' >py-tabulate/Makefile << '075fef7ea1f8959e1e6f24a515306ecb'
@@ -35,12 +37,11 @@ X
 XPORTNAME= tabulate
 XPORTVERSION= 0.7.2
 XCATEGORIES= devel python
-X
 XMASTER_SITES=	CHEESESHOP
 XPKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 X
 XMAINTAINER=	s.astanin@gmail.com
-XCOMMENT=	Pretty-print tabular data in Python.
+XCOMMENT=	Pretty-print tabular data in Python
 X
 XLICENSE=	MIT
 X
@@ -48,7 +49,6 @@ XUSES=		python
 XUSE_PYTHON=	distutils autoplist
 X
 X.include <bsd.port.mk>
-X
 075fef7ea1f8959e1e6f24a515306ecb
 exit
 
