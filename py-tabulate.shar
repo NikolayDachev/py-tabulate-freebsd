@@ -40,7 +40,7 @@ XCATEGORIES= devel python
 XMASTER_SITES=	CHEESESHOP
 XPKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 X
-XMAINTAINER=	s.astanin@gmail.com
+XMAINTAINER=	freebsd@dacehv.info
 XCOMMENT=	Pretty-print tabular data in Python
 X
 XLICENSE=	MIT

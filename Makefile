@@ -6,7 +6,7 @@ CATEGORIES= devel python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
-MAINTAINER=	s.astanin@gmail.com
+MAINTAINER=	freebsd@dacehv.info
 COMMENT=	Pretty-print tabular data in Python
 
 LICENSE=	MIT
