@@ -8,7 +8,6 @@
 #	py-tabulate
 #	py-tabulate/distinfo
 #	py-tabulate/pkg-descr
-#	py-tabulate/README.md
 #	py-tabulate/Makefile
 #
 echo c - py-tabulate
@@ -29,13 +28,6 @@ Xauthoring tabular data for lightweight plain-text markup: multiple output forma
 Xreadable presentation of mixed textual and numeric data: smart column alignment, configurable number formatting, alignment by a decimal point
 X
 eac3744fee776022c4418170d6c0e3bc
-echo x - py-tabulate/README.md
-sed 's/^X//' >py-tabulate/README.md << '1dfad8c09d5d899a6cf0260fcc96aea1'
-XFreeBSD port for https://pypi.python.org/pypi/tabulate/
-X
-X    make install clean
-X
-1dfad8c09d5d899a6cf0260fcc96aea1
 echo x - py-tabulate/Makefile
 sed 's/^X//' >py-tabulate/Makefile << '075fef7ea1f8959e1e6f24a515306ecb'
 X# $FreeBSD$
