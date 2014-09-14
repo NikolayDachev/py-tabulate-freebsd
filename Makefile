@@ -1,6 +1,6 @@
 # $FreeBSD$
 
-PORTNAME= py-tabulate
+PORTNAME= tabulate
 PORTVERSION= 0.7.2
 CATEGORIES= devel python
 
