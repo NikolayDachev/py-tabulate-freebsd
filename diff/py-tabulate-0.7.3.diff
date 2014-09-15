@@ -1,0 +1,31 @@
+Index: Makefile
+===================================================================
+--- Makefile	(revision 368275)
++++ Makefile	(working copy)
+@@ -2,7 +2,7 @@
+ # $FreeBSD$
+ 
+ PORTNAME=	tabulate
+-PORTVERSION=	0.7.2
++PORTVERSION=	0.7.3
+ CATEGORIES=	devel python
+ MASTER_SITES=	CHEESESHOP
+ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
+Index: distinfo
+===================================================================
+--- distinfo	(revision 368275)
++++ distinfo	(working copy)
+@@ -1,2 +1,2 @@
+-SHA256 (tabulate-0.7.2.tar.gz) = 532ccab8d9e4659a5f016d84814df86cc04763785e9de2739e890d956dc82d8f
+-SIZE (tabulate-0.7.2.tar.gz) = 19792
++SHA256 (tabulate-0.7.3.tar.gz) = 8a59a61ed6ddfdb009f15917e0f006cc5842f9daa72c519593b7a095e645532a
++SIZE (tabulate-0.7.3.tar.gz) = 22315
+
+Property changes on: distinfo
+___________________________________________________________________
+Modified: fbsd:nokeywords
+## -1 +1 ##
+-on
+\ No newline at end of property
++yes
+\ No newline at end of property
