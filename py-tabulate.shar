@@ -14,8 +14,8 @@ echo c - py-tabulate
 mkdir -p py-tabulate > /dev/null 2>&1
 echo x - py-tabulate/distinfo
 sed 's/^X//' >py-tabulate/distinfo << 'efaccaa5b8e175445e07b087b03aba23'
-XSHA256 (tabulate-0.7.2.tar.gz) = 532ccab8d9e4659a5f016d84814df86cc04763785e9de2739e890d956dc82d8f
-XSIZE (tabulate-0.7.2.tar.gz) = 19792
+XSHA256 (tabulate-0.7.3.tar.gz) = 8a59a61ed6ddfdb009f15917e0f006cc5842f9daa72c519593b7a095e645532a
+XSIZE (tabulate-0.7.3.tar.gz) = 22315
 efaccaa5b8e175445e07b087b03aba23
 echo x - py-tabulate/pkg-descr
 sed 's/^X//' >py-tabulate/pkg-descr << 'eac3744fee776022c4418170d6c0e3bc'
@@ -32,11 +32,12 @@ Xconfigurable number formatting, alignment by a decimal point
 eac3744fee776022c4418170d6c0e3bc
 echo x - py-tabulate/Makefile
 sed 's/^X//' >py-tabulate/Makefile << '075fef7ea1f8959e1e6f24a515306ecb'
-X# $FreeBSD$
+X# Created by: Nikolay Dachev <freebsd@dacehv.info>
+X# $FreeBSD: head/devel/py-tabulate/Makefile 368238 2014-09-15 02:11:03Z vanilla $
 X
-XPORTNAME= tabulate
-XPORTVERSION= 0.7.2
-XCATEGORIES= devel python
+XPORTNAME=	tabulate
+XPORTVERSION=	0.7.3
+XCATEGORIES=	devel python
 XMASTER_SITES=	CHEESESHOP
 XPKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 X
@@ -44,6 +45,7 @@ XMAINTAINER=	freebsd@dacehv.info
 XCOMMENT=	Pretty-print tabular data in Python
 X
 XLICENSE=	MIT
+XLICENSE_FILE=	${WRKSRC}/LICENSE
 X
 XUSES=		python
 XUSE_PYTHON=	distutils autoplist
